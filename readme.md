@@ -15,6 +15,7 @@ SpringBootアプリのホットリロード（アプリを再起動させずに�
 # セットアップ手順
 
 OS：Windows10
+
 Docker：ver.25.0.3
 
 1.
@@ -27,6 +28,6 @@ SpringBootOnDockerディレクトリに移動し、コマンドプロンプト�
 3.
 さらにコマンドプロンプトで「docker-compose up -d」でdockerコンテナを起動する。
 
-> http://localhost:8080へアクセスすると、/block/src/main/resources/templates/index.htmlが表示される。
+> http://localhost:8080 へアクセスすると、/block/src/main/resources/templates/index.htmlが表示される。
 
 > 停止するときは、コマンドプロンプトで「docker-compose stop」を実行する。
